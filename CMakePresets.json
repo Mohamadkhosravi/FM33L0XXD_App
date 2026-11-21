@@ -1,0 +1,31 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 20, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "fm33l0xxd-base",
+      "hidden": true,
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/cmake/arm-none-eabi-gcc.cmake",
+      "cacheVariables": { "CMAKE_EXPORT_COMPILE_COMMANDS": "ON" }
+    },
+    {
+      "name": "fm33l0xxd-debug",
+      "inherits": "fm33l0xxd-base",
+      "displayName": "FM33L0XXD Debug",
+      "binaryDir": "${sourceDir}/build/Debug",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+    },
+    {
+      "name": "fm33l0xxd-release",
+      "inherits": "fm33l0xxd-base",
+      "displayName": "FM33L0XXD Release",
+      "binaryDir": "${sourceDir}/build/Release",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "fm33l0xxd-debug",   "configurePreset": "fm33l0xxd-debug" },
+    { "name": "fm33l0xxd-release", "configurePreset": "fm33l0xxd-release" }
+  ]
+}

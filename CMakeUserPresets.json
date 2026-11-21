@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "fm33l0xxd-debug-local",
+      "inherits": "fm33l0xxd-debug"
+    }
+  ],
+  "buildPresets": [
+    { "name": "fm33l0xxd-debug-local", "configurePreset": "fm33l0xxd-debug-local" }
+  ]
+}
