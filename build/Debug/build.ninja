@@ -54,29 +54,289 @@ build CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj: CXX_COMPILER__FM33
   DEFINES = -DDEBUG -DFM33L0XXD
   DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\App\User\Src\main.cpp.obj.d
   FLAGS = -O0 -g3 -ggdb -std=c++17 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit
-  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
   OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\App\User\Src
   TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
 
-build CMakeFiles/FM33L0XXD_App.dir/Startup/system_stub.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Startup/system_stub.c || cmake_object_order_depends_target_FM33L0XXD_App
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c || cmake_object_order_depends_target_FM33L0XXD_App
   CONFIG = Debug
   DEFINES = -DDEBUG -DFM33L0XXD
-  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Startup\system_stub.c.obj.d
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl.c.obj.d
   FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
-  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
-  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Startup
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
   TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
 
-build CMakeFiles/FM33L0XXD_App.dir/Startup/startup_fm33l0xxd.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Startup/startup_fm33l0xxd.c || cmake_object_order_depends_target_FM33L0XXD_App
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c || cmake_object_order_depends_target_FM33L0XXD_App
   CONFIG = Debug
   DEFINES = -DDEBUG -DFM33L0XXD
-  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Startup\startup_fm33l0xxd.c.obj.d
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_adc.c.obj.d
   FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
-  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
-  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Startup
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_aes.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_bstim.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_comp.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_crc.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_dma.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_exti.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_extim.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_flash.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_gpio.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_gptim.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_i2c.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_iwdt.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_lcd.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_lptim16.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_lpuart.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_rcc.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_rng.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_rtc.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_spi.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_svd.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_u7816.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_uart.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33l0xxd_fl_wwdt.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src\fm33ld0xxd_fl_pmu.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\FM33L0xxD_FL_Driver\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj: C_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\CMSIS\Include\Device\FM\FM33xx\Source\system_fm33l0xxd.c.obj.d
+  FLAGS = -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\CMSIS\Include\Device\FM\FM33xx\Source
+  TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
+
+build CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj: ASM_COMPILER__FM33L0XXD_App_unscanned_Debug C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s || cmake_object_order_depends_target_FM33L0XXD_App
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DFM33L0XXD
+  DEP_FILE = CMakeFiles\FM33L0XXD_App.dir\Drivers\CMSIS\Include\Device\FM\FM33xx\Source\Templates\GCC\startup_fm33l0xxd.s.obj.d
+  FLAGS = -g3 -ggdb -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -x assembler-with-cpp
+  INCLUDES = -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
+  OBJECT_FILE_DIR = CMakeFiles\FM33L0XXD_App.dir\Drivers\CMSIS\Include\Device\FM\FM33xx\Source\Templates\GCC
   TARGET_SUPPORT_DIR = CMakeFiles\FM33L0XXD_App.dir
 
 
@@ -87,10 +347,10 @@ build CMakeFiles/FM33L0XXD_App.dir/Startup/startup_fm33l0xxd.c.obj: C_COMPILER__
 #############################################
 # Link the executable FM33L0XXD_App.elf
 
-build FM33L0XXD_App.elf: CXX_EXECUTABLE_LINKER__FM33L0XXD_App_Debug CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj CMakeFiles/FM33L0XXD_App.dir/Startup/system_stub.c.obj CMakeFiles/FM33L0XXD_App.dir/Startup/startup_fm33l0xxd.c.obj | C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/linker/FM33L04XD_flash.ld
+build FM33L0XXD_App.elf: CXX_EXECUTABLE_LINKER__FM33L0XXD_App_Debug CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj | C$:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/linker/fm33l04xd_flash.ld
   CONFIG = Debug
   FLAGS = -O0 -g3 -ggdb
-  LINK_FLAGS = -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -TC:/Users/mkhosravi/Desktop/FM33L0XXD_App/linker/FM33L04XD_flash.ld --specs=nano.specs --specs=nosys.specs -Wl,--gc-sections -Wl,--print-memory-usage -Wl,-Map=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.map -static
+  LINK_FLAGS = -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -TC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/linker/fm33l04xd_flash.ld --specs=nano.specs --specs=nosys.specs -Wl,--gc-sections -Wl,--print-memory-usage -Wl,-Map=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.map -static
   OBJECT_DIR = CMakeFiles\FM33L0XXD_App.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\mkhosravi\Desktop\FM33L0XXD_App\build\Debug && "C:\Program Files\Arm\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\bin\arm-none-eabi-objcopy.exe" -O ihex C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.elf C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.hex && "C:\Program Files\Arm\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\bin\arm-none-eabi-objcopy.exe" -O binary C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.elf C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.bin && "C:\Program Files\Arm\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\bin\arm-none-eabi-size.exe" --format=berkeley C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/FM33L0XXD_App.elf"
   PRE_LINK = cd .

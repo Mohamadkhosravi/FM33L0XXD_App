@@ -1,13 +1,10 @@
-volatile int counter = 4;
-#include "main.h"
 #include "FM33L0XXD.h"
-#include "fm33l0xxd_fl.h"
-
+volatile int counter = 0;
 int main(void)
 {
     while (1)
     {
         counter++;
-        FL_IWDT_ReloadCounter(IWDT);
+        IWDT->IWDTSERV = 0x12345A5AU;
     }
-};
+}

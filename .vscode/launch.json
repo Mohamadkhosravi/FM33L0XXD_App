@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug FM33L0XXD (J-Link)",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/FM33L0XXD_App.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "serverpath": "C:/Program Files/SEGGER/JLink_V898/JLinkGDBServerCL.exe",
+      "device": "Cortex-M0+",
+      "interface": "swd",
+      "showDevDebugOutput": "raw",
+      "preLaunchTask": "Build Debug",
+      "breakAfterReset": false,
+      "svdFile": "${workspaceFolder}/Drivers/SVD/FM33L0XXD.SVD",
+      "armToolchainPath": "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin",
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "windows": {
+        "gdbPath": "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb.exe"
+      }
+    }
+  ]
+}

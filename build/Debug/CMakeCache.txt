@@ -251,9 +251,6 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/cmake/arm
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//FL driver root for FM33L0XXD
-FL_DIR:PATH=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0XXD_FL_Driver
-
 //Value Computed by CMake
 FM33L0XXD_App_BINARY_DIR:STATIC=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug
 
@@ -262,21 +259,6 @@ FM33L0XXD_App_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 FM33L0XXD_App_SOURCE_DIR:STATIC=C:/Users/mkhosravi/Desktop/FM33L0XXD_App
-
-//Device macro used by the FM33 headers
-FM33_CHIP_MACRO:STRING=FM33L0XXD
-
-//Compile system_*.c from the device package
-FM33_USE_DEVICE_SYSTEM:BOOL=OFF
-
-//Compile the FL driver from FL_DIR
-FM33_USE_FL:BOOL=OFF
-
-//Linker script
-LINKER_SCRIPT:FILEPATH=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/linker/FM33L04XD_flash.ld
-
-//Startup file (.c or .s)
-STARTUP_FILE:FILEPATH=C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Startup/startup_fm33l0xxd.c
 
 
 ########################

@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-# ------------------------------------------------------------------
 # Toolchain comes from CMakePresets.json (cmake/arm-none-eabi-gcc.cmake).
-# Never set CMAKE_C_COMPILER here: it is locked after project().
-# ------------------------------------------------------------------
 project(FM33L0XXD_App LANGUAGES C CXX ASM)
 
 set(CMAKE_C_STANDARD 11)
@@ -20,73 +17,75 @@ endif()
 set(CMAKE_C_FLAGS_DEBUG "-O0 -g3 -ggdb")
 set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3 -ggdb")
 set(CMAKE_ASM_FLAGS_DEBUG "-g3 -ggdb")
-set(CMAKE_C_FLAGS_RELEASE "-O0 -g")
-set(CMAKE_CXX_FLAGS_RELEASE "-O0 -g")
+set(CMAKE_C_FLAGS_RELEASE "-Os")
+set(CMAKE_CXX_FLAGS_RELEASE "-Os")
 set(CMAKE_ASM_FLAGS_RELEASE "")
 
-# ==================================================================
-# گزینه‌ها و مسیرهای قابل تنظیم
-# ==================================================================
-# درایور FL و system_*.c را فقط وقتی مال FM33L0XXD مطمئن شدید روشن کنید:
-# cmake --preset fm33l0xxd-debug-local -DFM33_USE_FL=ON
-option(FM33_USE_FL "Compile the FL driver from FL_DIR" OFF)
-option(FM33_USE_DEVICE_SYSTEM "Compile system_*.c from the device package" OFF)
-
-set(FM33_CHIP_MACRO "FM33L0XXD" CACHE STRING "Device macro used by the FM33 headers")
-set(FL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Drivers/FM33L0XXD_FL_Driver" CACHE PATH "FL driver root for FM33L0XXD")
-
-set(LINKER_SCRIPT "${CMAKE_CURRENT_SOURCE_DIR}/linker/FM33L04XD_flash.ld"
-    CACHE FILEPATH "Linker script")
-set(STARTUP_FILE "${CMAKE_CURRENT_SOURCE_DIR}/Startup/startup_fm33l0xxd.c"
-    CACHE FILEPATH "Startup file (.c or .s)")
-
-set(DRV_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/Drivers")
-set(CMSIS_CORE_INC "${DRV_ROOT}/CMSIS/Include")
-set(DEV_INC "${DRV_ROOT}/CMSIS/Device/FM/FM33xx/Include")
-set(DEV_SRC "${DRV_ROOT}/CMSIS/Device/FM/FM33xx/Source")
-
 set(CPU_FLAGS -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft)
+set(FM33_CHIP_MACRO FM33L0XXD)
 
 # ==================================================================
-# بررسی هدرهای CMSIS
+# Paths (same layout as the working project: full SDK)
 # ==================================================================
-if(EXISTS "${DEV_INC}/core_cm0plus.h")
-    set(CORE_HDR_DIR "${DEV_INC}")
-elseif(EXISTS "${CMSIS_CORE_INC}/core_cm0plus.h")
-    set(CORE_HDR_DIR "${CMSIS_CORE_INC}")
-else()
-    message(FATAL_ERROR "core_cm0plus.h not found in ${DEV_INC} or ${CMSIS_CORE_INC}")
-endif()
+set(DRV_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/Drivers")
+set(FL_DIR "${DRV_ROOT}/FM33L0xxD_FL_Driver")
+set(DEV_ROOT "${DRV_ROOT}/CMSIS/Include/Device/FM/FM33xx")
+set(DEV_INC "${DEV_ROOT}/Include")
+set(GCC_TPL "${DEV_ROOT}/Source/Templates/GCC")
 
-file(GLOB_RECURSE CMSIS_GCC_H CONFIGURE_DEPENDS "${DRV_ROOT}/*cmsis_gcc.h")
+set(LINKER_SCRIPT "${GCC_TPL}/linker/fm33l04xd_flash.ld")
+set(STARTUP_FILE "${GCC_TPL}/startup_fm33l0xxd.s")
 
-if(NOT CMSIS_GCC_H)
-    message(FATAL_ERROR "cmsis_gcc.h not found under ${DRV_ROOT}. It is required by core_cm0plus.h")
-endif()
-
-list(GET CMSIS_GCC_H 0 _cmsis_gcc_first)
-get_filename_component(CMSIS_GCC_DIR "${_cmsis_gcc_first}" DIRECTORY)
-
-# ==================================================================
-# Linker script / startup
-# ==================================================================
-foreach(_f "${LINKER_SCRIPT}" "${STARTUP_FILE}")
-    if(NOT EXISTS "${_f}")
-        message(FATAL_ERROR "Required file not found: ${_f}")
+foreach(_p IN ITEMS "${LINKER_SCRIPT}" "${STARTUP_FILE}" "${FL_DIR}/Inc" "${FL_DIR}/Src" "${DEV_INC}")
+    if(NOT EXISTS "${_p}")
+        message(FATAL_ERROR "Required file/folder not found: ${_p}")
     endif()
 endforeach()
 
-if(STARTUP_FILE MATCHES "\\.[sS]$")
-    set_source_files_properties(${STARTUP_FILE} PROPERTIES
-        LANGUAGE ASM
-        COMPILE_FLAGS "-x assembler-with-cpp"
-    )
+# ==================================================================
+# SDK system file (contains the real SystemInit)
+# ==================================================================
+file(GLOB_RECURSE SYSTEM_SRC CONFIGURE_DEPENDS "${DEV_ROOT}/*system_fm33l0xxd.c")
+
+if(NOT SYSTEM_SRC)
+    message(FATAL_ERROR "system_fm33l0xxd.c not found under ${DEV_ROOT}")
 endif()
 
+list(GET SYSTEM_SRC 0 _system_first)
+get_filename_component(SYSTEM_DIR "${_system_first}" DIRECTORY)
+
 # ==================================================================
-# تشخیص خودکار نسخه CAN از ProjectConfig.hpp
+# CMSIS core headers
 # ==================================================================
-# مقدار پیش‌فرض باید الگوی غیرممکن باشد، چون REGEX خالی همه‌ی فایل‌ها را حذف می‌کند.
+file(GLOB_RECURSE _core_hdr CONFIGURE_DEPENDS "${DRV_ROOT}/*core_cm0plus.h")
+
+if(NOT _core_hdr)
+    message(FATAL_ERROR "core_cm0plus.h not found under ${DRV_ROOT}")
+endif()
+
+list(GET _core_hdr 0 _core_first)
+get_filename_component(CORE_HDR_DIR "${_core_first}" DIRECTORY)
+
+file(GLOB_RECURSE _cgcc_hdr CONFIGURE_DEPENDS "${DRV_ROOT}/*cmsis_gcc.h")
+
+if(NOT _cgcc_hdr)
+    message(FATAL_ERROR "cmsis_gcc.h not found under ${DRV_ROOT}")
+endif()
+
+list(GET _cgcc_hdr 0 _cgcc_first)
+get_filename_component(CMSIS_GCC_DIR "${_cgcc_first}" DIRECTORY)
+
+# ==================================================================
+# Startup (GNU assembler syntax)
+# ==================================================================
+set_source_files_properties(${STARTUP_FILE} PROPERTIES
+    LANGUAGE ASM
+    COMPILE_FLAGS "-x assembler-with-cpp"
+)
+
+# ==================================================================
+# CAN protocol auto-detect (only if ProjectConfig.hpp exists)
+# ==================================================================
 set(CAN_EXCLUDE_DIR "__NO_CAN_EXCLUDE__")
 set(CONFIG_FILE "${CMAKE_CURRENT_SOURCE_DIR}/App/User/Inc/ProjectConfig.hpp")
 
@@ -100,12 +99,10 @@ if(EXISTS "${CONFIG_FILE}")
         message(STATUS "Auto-Detected Configuration: CAN LOW SPEED")
         set(CAN_EXCLUDE_DIR "App/CANDatabase/CANMessages_HIGH_SPEED")
     endif()
-else()
-    message(WARNING "ProjectConfig.hpp not found. No CAN files will be excluded.")
 endif()
 
 # ==================================================================
-# سورس‌ها
+# Sources
 # ==================================================================
 file(GLOB_RECURSE APP_SOURCES CONFIGURE_DEPENDS
     ${CMAKE_CURRENT_SOURCE_DIR}/App/*.c
@@ -117,84 +114,58 @@ if(NOT APP_SOURCES)
     message(FATAL_ERROR "No application sources found under App/.")
 endif()
 
-# main.c یا main.cpp هر کدام باشد قبول است
-if(NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/App/User/Src/main.c" AND
-    NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/App/User/Src/main.cpp")
-    message(FATAL_ERROR "App/User/Src/main.c (or main.cpp) is missing.")
-endif()
+file(GLOB_RECURSE FL_SOURCES CONFIGURE_DEPENDS "${FL_DIR}/Src/*.c")
 
-set(FL_SOURCES "")
-set(FL_HEADERS "")
-
-if(FM33_USE_FL)
-    if(NOT EXISTS "${FL_DIR}/Src" OR NOT EXISTS "${FL_DIR}/Inc")
-        message(FATAL_ERROR "FM33_USE_FL is ON but ${FL_DIR} has no Src/Inc folders")
-    endif()
-
-    file(GLOB_RECURSE FL_SOURCES CONFIGURE_DEPENDS "${FL_DIR}/Src/*.c")
-    file(GLOB_RECURSE FL_HEADERS CONFIGURE_DEPENDS "${FL_DIR}/Inc/*.h")
-endif()
-
-set(SYS_SOURCES "")
-
-if(FM33_USE_DEVICE_SYSTEM)
-    file(GLOB SYS_SOURCES CONFIGURE_DEPENDS "${DEV_SRC}/*.c")
-
-    if(NOT SYS_SOURCES)
-        message(FATAL_ERROR "FM33_USE_DEVICE_SYSTEM is ON but no system_*.c in ${DEV_SRC}")
-    endif()
-else()
-    # وقتی SystemInit رسمی را نداریم، نسخه‌ی خالی را استفاده می‌کنیم
-    set(SYS_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Startup/system_stub.c")
-endif()
-
-set(ALL_SOURCES ${APP_SOURCES} ${FL_SOURCES} ${SYS_SOURCES} ${STARTUP_FILE})
+set(ALL_SOURCES
+    ${APP_SOURCES}
+    ${FL_SOURCES}
+    ${SYSTEM_SRC}
+    ${STARTUP_FILE}
+)
 list(REMOVE_DUPLICATES ALL_SOURCES)
 
 # ==================================================================
-# مسیرهای include: از محل واقعی هدرها ساخته می‌شوند
+# Include directories
 # ==================================================================
-file(GLOB_RECURSE ALL_HEADERS CONFIGURE_DEPENDS
+file(GLOB_RECURSE APP_HEADERS CONFIGURE_DEPENDS
     ${CMAKE_CURRENT_SOURCE_DIR}/App/*.h
     ${CMAKE_CURRENT_SOURCE_DIR}/App/*.hpp
-    ${DRV_ROOT}/CMSIS/Device/FM/FM33xx/Include/*.h
-    ${DRV_ROOT}/CMSIS/Include/*.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/FM33L0xxD_FL_Driver/Inc/*.h
-    ${FL_HEADERS}
 )
-list(FILTER ALL_HEADERS EXCLUDE REGEX "${CAN_EXCLUDE_DIR}")
+list(FILTER APP_HEADERS EXCLUDE REGEX "${CAN_EXCLUDE_DIR}")
 
 set(INCLUDE_DIRS "")
 
-foreach(_hdr ${ALL_HEADERS})
-    get_filename_component(_dir "${_hdr}" DIRECTORY)
-    list(APPEND INCLUDE_DIRS "${_dir}")
+foreach(_h ${APP_HEADERS})
+    get_filename_component(_d "${_h}" DIRECTORY)
+    list(APPEND INCLUDE_DIRS "${_d}")
 endforeach()
 
 list(APPEND INCLUDE_DIRS
     "${CMAKE_CURRENT_SOURCE_DIR}/App/User/Inc"
+    "${FL_DIR}/Inc"
+    "${DEV_INC}"
+    "${SYSTEM_DIR}"
     "${CORE_HDR_DIR}"
     "${CMSIS_GCC_DIR}"
 )
 list(REMOVE_DUPLICATES INCLUDE_DIRS)
 
 # ==================================================================
-# Target
+# Target (name matches tasks.json and launch.json)
 # ==================================================================
-# نام target با نام پروژه یکی است تا tasks.json و launch.json کار کنند
-set(TARGET_STANDALONE ${PROJECT_NAME})
+set(TARGET_NAME ${PROJECT_NAME})
 
-add_executable(${TARGET_STANDALONE} ${ALL_SOURCES})
-set_target_properties(${TARGET_STANDALONE} PROPERTIES SUFFIX ".elf")
+add_executable(${TARGET_NAME} ${ALL_SOURCES})
+set_target_properties(${TARGET_NAME} PROPERTIES SUFFIX ".elf")
 
-target_include_directories(${TARGET_STANDALONE} PRIVATE ${INCLUDE_DIRS})
+target_include_directories(${TARGET_NAME} PRIVATE ${INCLUDE_DIRS})
 
-target_compile_definitions(${TARGET_STANDALONE} PRIVATE
+target_compile_definitions(${TARGET_NAME} PRIVATE
     ${FM33_CHIP_MACRO}
     $<$<CONFIG:Debug>:DEBUG>
 )
 
-target_compile_options(${TARGET_STANDALONE} PRIVATE
+target_compile_options(${TARGET_NAME} PRIVATE
     ${CPU_FLAGS}
     -ffunction-sections -fdata-sections -fno-common
     -Wall -Wextra -Wshadow -Wdouble-promotion
@@ -204,31 +175,28 @@ target_compile_options(${TARGET_STANDALONE} PRIVATE
     $<$<COMPILE_LANGUAGE:CXX>:-fno-use-cxa-atexit>
 )
 
-target_link_options(${TARGET_STANDALONE} PRIVATE
+target_link_options(${TARGET_NAME} PRIVATE
     ${CPU_FLAGS}
     -T${LINKER_SCRIPT}
     --specs=nano.specs
     --specs=nosys.specs
     -Wl,--gc-sections
     -Wl,--print-memory-usage
-    -Wl,-Map=$<TARGET_FILE_DIR:${TARGET_STANDALONE}>/${TARGET_STANDALONE}.map
+    -Wl,-Map=$<TARGET_FILE_DIR:${TARGET_NAME}>/${TARGET_NAME}.map
     -static
 )
 
-set_target_properties(${TARGET_STANDALONE} PROPERTIES LINK_DEPENDS ${LINKER_SCRIPT})
+set_target_properties(${TARGET_NAME} PROPERTIES LINK_DEPENDS ${LINKER_SCRIPT})
 
-# ==================================================================
-# Post-build: hex / bin / size
-# ==================================================================
-add_custom_command(TARGET ${TARGET_STANDALONE} POST_BUILD
-    COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${TARGET_STANDALONE}>
-    $<TARGET_FILE_DIR:${TARGET_STANDALONE}>/${TARGET_STANDALONE}.hex
-    COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${TARGET_STANDALONE}>
-    $<TARGET_FILE_DIR:${TARGET_STANDALONE}>/${TARGET_STANDALONE}.bin
-    COMMAND ${CMAKE_SIZE} --format=berkeley $<TARGET_FILE:${TARGET_STANDALONE}>
+add_custom_command(TARGET ${TARGET_NAME} POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${TARGET_NAME}>
+    $<TARGET_FILE_DIR:${TARGET_NAME}>/${TARGET_NAME}.hex
+    COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${TARGET_NAME}>
+    $<TARGET_FILE_DIR:${TARGET_NAME}>/${TARGET_NAME}.bin
+    COMMAND ${CMAKE_SIZE} --format=berkeley $<TARGET_FILE:${TARGET_NAME}>
     COMMENT "Generating .hex / .bin and reporting size"
     VERBATIM
 )
 
-message(STATUS "App sources    : ${APP_SOURCES}")
-message(STATUS "Include dirs   : ${INCLUDE_DIRS}")
+message(STATUS "System source : ${SYSTEM_SRC}")
+message(STATUS "Linker        : ${LINKER_SCRIPT}")

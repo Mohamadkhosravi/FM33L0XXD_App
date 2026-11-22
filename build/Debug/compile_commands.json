@@ -1,0 +1,176 @@
+[
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-g++.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=c++17 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -o CMakeFiles\\FM33L0XXD_App.dir\\App\\User\\Src\\main.cpp.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\App\\User\\Src\\main.cpp",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Src/main.cpp",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_adc.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_adc.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_aes.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_aes.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_bstim.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_bstim.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_comp.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_comp.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_crc.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_crc.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_dma.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_dma.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_exti.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_exti.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_extim.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_extim.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_flash.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_flash.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_gpio.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_gpio.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_gptim.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_gptim.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_i2c.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_i2c.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_iwdt.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_iwdt.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lcd.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lcd.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lptim16.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lptim16.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lpuart.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_lpuart.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rcc.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rcc.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rng.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rng.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rtc.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_rtc.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_spi.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_spi.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_svd.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_svd.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_u7816.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_u7816.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_uart.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_uart.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_wwdt.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33l0xxd_fl_wwdt.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33ld0xxd_fl_pmu.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\FM33L0xxD_FL_Driver\\Src\\fm33ld0xxd_fl_pmu.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -O0 -g3 -ggdb -std=gnu11 -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\CMSIS\\Include\\Device\\FM\\FM33xx\\Source\\system_fm33l0xxd.c.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\CMSIS\\Include\\Device\\FM\\FM33xx\\Source\\system_fm33l0xxd.c",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj"
+},
+{
+  "directory": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DFM33L0XXD -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Inc -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source -IC:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include -g3 -ggdb -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wshadow -Wdouble-promotion -x assembler-with-cpp -o CMakeFiles\\FM33L0XXD_App.dir\\Drivers\\CMSIS\\Include\\Device\\FM\\FM33xx\\Source\\Templates\\GCC\\startup_fm33l0xxd.s.obj -c C:\\Users\\mkhosravi\\Desktop\\FM33L0XXD_App\\Drivers\\CMSIS\\Include\\Device\\FM\\FM33xx\\Source\\Templates\\GCC\\startup_fm33l0xxd.s",
+  "file": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s",
+  "output": "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug/CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj"
+}
+]

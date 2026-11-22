@@ -1,0 +1,5 @@
+{
+  "cortex-debug.variableUseNaturalFormat": false,
+  "cmake.buildBeforeRun": false,
+  "C_Cpp.errorSquiggles": "enabled"
+}
