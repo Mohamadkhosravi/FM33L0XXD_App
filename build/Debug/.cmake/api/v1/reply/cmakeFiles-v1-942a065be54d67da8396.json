@@ -1,0 +1,252 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/*.c",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/*.cpp",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Src/main.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/*.h",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/User/Inc/main.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/App/*.hpp",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/*cmsis_gcc.h",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/cmsis_gcc.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/*core_cm0plus.h",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Include/core_cm0plus.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/*system_fm33l0xxd.c",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/*.c",
+			"paths" : 
+			[
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_adc.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_aes.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_bstim.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_comp.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_crc.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_dma.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_exti.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_extim.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_flash.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gpio.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_gptim.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_i2c.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_iwdt.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lcd.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lptim16.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_lpuart.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rcc.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rng.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_rtc.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_spi.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_svd.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_u7816.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_uart.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33l0xxd_fl_wwdt.c",
+				"C:/Users/mkhosravi/Desktop/FM33L0XXD_App/Drivers/FM33L0xxD_FL_Driver/Src/fm33ld0xxd_fl_pmu.c"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.4.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.4.4/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeASMLinkerInformation.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App/build/Debug",
+		"source" : "C:/Users/mkhosravi/Desktop/FM33L0XXD_App"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

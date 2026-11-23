@@ -113,19 +113,6 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x1b C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
  .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .group         0x00000000        0xc CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
@@ -4616,7 +4603,7 @@ LOAD C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../li
                 0x00000000                g_pfnVectors
                 0x000000c0                        . = ALIGN (0x4)
 
-.text           0x000000c0      0x3b0
+.text           0x000000c0      0x3a0
                 0x000000c0                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -4628,124 +4615,124 @@ LOAD C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../li
                 0x00000108       0x2c C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x00000134       0x24 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x00000158       0x24 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .text.main     0x00000158       0x14 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
                 0x00000158                main
  .text.SystemPLLClockUpdate
-                0x0000017c       0xb8 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+                0x0000016c       0xb8 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
  .text.SystemCoreClockUpdate
-                0x00000234      0x100 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
-                0x00000234                SystemCoreClockUpdate
+                0x00000224      0x100 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+                0x00000224                SystemCoreClockUpdate
  .text.SystemInit
-                0x00000334       0xd4 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
-                0x00000334                SystemInit
+                0x00000324       0xd4 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+                0x00000324                SystemInit
  .text.Reset_Handler
-                0x00000408       0x4c CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
-                0x00000408                Reset_Handler
+                0x000003f8       0x4c CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+                0x000003f8                Reset_Handler
  .text.Default_Handler
-                0x00000454        0x2 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
-                0x00000454                GPIO_IRQHandler
-                0x00000454                U78160_IRQHandler
-                0x00000454                HardFault_Handler
-                0x00000454                EXTIM1_IRQHandler
-                0x00000454                SysTick_Handler
-                0x00000454                PendSV_Handler
-                0x00000454                NMI_Handler
-                0x00000454                EXTIM3_IRQHandler
-                0x00000454                UART1_IRQHandler
-                0x00000454                BSTIM2_IRQHandler
-                0x00000454                LPTIM16_IRQHandler
-                0x00000454                UART0_IRQHandler
-                0x00000454                FDET_IRQHandler
-                0x00000454                BSTIM1_IRQHandler
-                0x00000454                SPI1_IRQHandler
-                0x00000454                RTC_IRQHandler
-                0x00000454                LPUART_IRQHandler
-                0x00000454                UART5_IRQHandler
-                0x00000454                UART2_IRQHandler
-                0x00000454                UART4_IRQHandler
-                0x00000454                Default_Handler
-                0x00000454                U78161_IRQHandler
-                0x00000454                ADC_IRQHandler
-                0x00000454                COMPx_IRQHandler
-                0x00000454                EXTIM4_IRQHandler
-                0x00000454                SPI2_IRQHandler
-                0x00000454                I2C_IRQHandler
-                0x00000454                SVC_Handler
-                0x00000454                WKUPx_IRQHandler
-                0x00000454                GPTIMx_IRQHandler
-                0x00000454                SPI0_IRQHandler
-                0x00000454                AES_IRQHandler
-                0x00000454                EXTIM2_IRQHandler
-                0x00000454                DMA_IRQHandler
-                0x00000454                SVD_IRQHandler
-                0x00000454                FLASH_IRQHandler
-                0x00000454                UART3_IRQHandler
-                0x00000454                WWDT_IRQHandler
+                0x00000444        0x2 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+                0x00000444                GPIO_IRQHandler
+                0x00000444                U78160_IRQHandler
+                0x00000444                HardFault_Handler
+                0x00000444                EXTIM1_IRQHandler
+                0x00000444                SysTick_Handler
+                0x00000444                PendSV_Handler
+                0x00000444                NMI_Handler
+                0x00000444                EXTIM3_IRQHandler
+                0x00000444                UART1_IRQHandler
+                0x00000444                BSTIM2_IRQHandler
+                0x00000444                LPTIM16_IRQHandler
+                0x00000444                UART0_IRQHandler
+                0x00000444                FDET_IRQHandler
+                0x00000444                BSTIM1_IRQHandler
+                0x00000444                SPI1_IRQHandler
+                0x00000444                RTC_IRQHandler
+                0x00000444                LPUART_IRQHandler
+                0x00000444                UART5_IRQHandler
+                0x00000444                UART2_IRQHandler
+                0x00000444                UART4_IRQHandler
+                0x00000444                Default_Handler
+                0x00000444                U78161_IRQHandler
+                0x00000444                ADC_IRQHandler
+                0x00000444                COMPx_IRQHandler
+                0x00000444                EXTIM4_IRQHandler
+                0x00000444                SPI2_IRQHandler
+                0x00000444                I2C_IRQHandler
+                0x00000444                SVC_Handler
+                0x00000444                WKUPx_IRQHandler
+                0x00000444                GPTIMx_IRQHandler
+                0x00000444                SPI0_IRQHandler
+                0x00000444                AES_IRQHandler
+                0x00000444                EXTIM2_IRQHandler
+                0x00000444                DMA_IRQHandler
+                0x00000444                SVD_IRQHandler
+                0x00000444                FLASH_IRQHandler
+                0x00000444                UART3_IRQHandler
+                0x00000444                WWDT_IRQHandler
  *(.glue_7)
- .glue_7        0x00000456        0x0 linker stubs
+ .glue_7        0x00000446        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000456        0x0 linker stubs
+ .glue_7t       0x00000446        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x00000456        0x2 
- .eh_frame      0x00000458        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
+ *fill*         0x00000446        0x2 
+ .eh_frame      0x00000448        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x00000458        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crti.o
-                0x00000458                _init
- .init          0x0000045c        0x8 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtn.o
+ .init          0x00000448        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crti.o
+                0x00000448                _init
+ .init          0x0000044c        0x8 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x00000464        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crti.o
-                0x00000464                _fini
- .fini          0x00000468        0x8 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtn.o
-                0x00000470                        . = ALIGN (0x4)
-                0x00000470                        _etext = .
+ .fini          0x00000454        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crti.o
+                0x00000454                _fini
+ .fini          0x00000458        0x8 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtn.o
+                0x00000460                        . = ALIGN (0x4)
+                0x00000460                        _etext = .
 
-.vfp11_veneer   0x00000470        0x0
- .vfp11_veneer  0x00000470        0x0 linker stubs
+.vfp11_veneer   0x00000460        0x0
+ .vfp11_veneer  0x00000460        0x0 linker stubs
 
-.v4_bx          0x00000470        0x0
- .v4_bx         0x00000470        0x0 linker stubs
+.v4_bx          0x00000460        0x0
+ .v4_bx         0x00000460        0x0 linker stubs
 
-.iplt           0x00000470        0x0
- .iplt          0x00000470        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00000460        0x0
+ .iplt          0x00000460        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rel.dyn        0x00000470        0x0
- .rel.iplt      0x00000470        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x00000460        0x0
+ .rel.iplt      0x00000460        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x00000470        0x0
-                0x00000470                        . = ALIGN (0x4)
+.rodata         0x00000460        0x0
+                0x00000460                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x00000470                        . = ALIGN (0x4)
+                0x00000460                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000470        0x0
-                0x00000470                        __exidx_start = .
+.ARM            0x00000460        0x0
+                0x00000460                        __exidx_start = .
  *(.ARM.exidx*)
-                0x00000470                        __exidx_end = .
+                0x00000460                        __exidx_end = .
 
-.preinit_array  0x00000470        0x0
-                0x00000470                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000460        0x0
+                0x00000460                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000470                        PROVIDE (__preinit_array_end = .)
+                0x00000460                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00000470        0x4
-                0x00000470                        PROVIDE (__init_array_start = .)
+.init_array     0x00000460        0x4
+                0x00000460                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000470        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000474                        PROVIDE (__init_array_end = .)
+ .init_array    0x00000460        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000464                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x00000474        0x4
+.fini_array     0x00000464        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000474        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x00000464        0x4 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000478                        _sidata = LOADADDR (.data)
+                0x00000468                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x00000478
+.data           0x20000000        0xc load address 0x00000468
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -4763,17 +4750,17 @@ LOAD C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../li
                 0x2000000c                        _edata = .
 
 .tm_clone_table
-                0x2000000c        0x0 load address 0x00000484
+                0x2000000c        0x0 load address 0x00000474
  .tm_clone_table
                 0x2000000c        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000000c        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000000c        0x0 load address 0x00000484
+.igot.plt       0x2000000c        0x0 load address 0x00000474
  .igot.plt      0x2000000c        0x0 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v6-m/nofp/crtbegin.o
                 0x2000000c                        . = ALIGN (0x4)
 
-.bss            0x2000000c       0x20 load address 0x00000484
+.bss            0x2000000c       0x20 load address 0x00000474
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.bss)
@@ -4818,15 +4805,15 @@ LOAD C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../li
 OUTPUT(FM33L0XXD_App.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000      0x5e1
- .debug_info    0x00000000      0x100 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_info    0x00000100      0x4b1 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
- .debug_info    0x000005b1       0x30 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+.debug_info     0x00000000      0x545
+ .debug_info    0x00000000       0x64 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .debug_info    0x00000064      0x4b1 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+ .debug_info    0x00000515       0x30 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
 
-.debug_abbrev   0x00000000      0x226
- .debug_abbrev  0x00000000       0xa7 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_abbrev  0x000000a7      0x15b CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
- .debug_abbrev  0x00000202       0x24 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+.debug_abbrev   0x00000000      0x1d9
+ .debug_abbrev  0x00000000       0x5a CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .debug_abbrev  0x0000005a      0x15b CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+ .debug_abbrev  0x000001b5       0x24 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
 
 .debug_aranges  0x00000000       0x78
  .debug_aranges
@@ -4845,37 +4832,24 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000035       0x19 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
 
-.debug_macro    0x00000000     0x1b08
- .debug_macro   0x00000000       0xb2 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x000000b2      0xc0a CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000cbc       0x28 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000ce4       0x1c CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000d00       0x22 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000d22       0x56 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000d78       0x6d CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000de5      0x103 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000ee8       0x6a CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00000f52      0x1d0 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00001122       0x4d CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x0000116f       0x26 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00001195      0x329 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x000014be       0x58 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00001516      0x35a CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_macro   0x00001870      0x1ed CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
- .debug_macro   0x00001a5d       0x53 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
- .debug_macro   0x00001ab0       0x58 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+.debug_macro    0x00000000      0xeb3
+ .debug_macro   0x00000000       0x11 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .debug_macro   0x00000011      0xc0a CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .debug_macro   0x00000c1b      0x1ed CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+ .debug_macro   0x00000e08       0x53 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+ .debug_macro   0x00000e5b       0x58 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
 
-.debug_line     0x00000000      0xb73
- .debug_line    0x00000000      0x327 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
- .debug_line    0x00000327      0x7d2 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
- .debug_line    0x00000af9       0x7a CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+.debug_line     0x00000000      0x8c1
+ .debug_line    0x00000000       0x75 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+ .debug_line    0x00000075      0x7d2 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+ .debug_line    0x00000847       0x7a CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
 
-.debug_str      0x00000000    0x2811d
- .debug_str     0x00000000    0x2811d CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
-                               0x678e (size before relaxing)
- .debug_str     0x0002811d        0x0 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
+.debug_str      0x00000000    0x28060
+ .debug_str     0x00000000    0x28060 CMakeFiles/FM33L0XXD_App.dir/App/User/Src/main.cpp.obj
+                               0x3498 (size before relaxing)
+ .debug_str     0x00028060        0x0 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/system_fm33l0xxd.c.obj
                               0x27953 (size before relaxing)
- .debug_str     0x0002811d        0x0 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
+ .debug_str     0x00028060        0x0 CMakeFiles/FM33L0XXD_App.dir/Drivers/CMSIS/Include/Device/FM/FM33xx/Source/Templates/GCC/startup_fm33l0xxd.s.obj
                                  0xca (size before relaxing)
 
 .comment        0x00000000       0x46

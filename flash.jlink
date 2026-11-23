@@ -1,0 +1,10 @@
+device Cortex-M0
+if SWD
+speed 1000
+connect
+r
+h
+loadfile build/Debug/FM33L0XXD_App.hex
+r
+g
+exit

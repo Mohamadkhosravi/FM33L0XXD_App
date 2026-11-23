@@ -1,0 +1,9 @@
+device FM33L04XD
+if SWD
+speed 1000
+connect
+r
+loadfile build/Debug/FM33L0XXD_App.hex
+r
+g
+exit
